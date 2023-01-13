@@ -1,0 +1,406 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1.5px;   
+}
+
+.desktopView {
+    display:none;
+}
+
+.heading  {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:15vh;
+    color:#E6E6E4;
+    font-weight: 200;
+}
+
+
+.heading p {
+  width: 98vw;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+  padding-right: 10px;  
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #005EB8;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 100;
+  display: block;
+  background-color: #FFFDFA;
+  margin-bottom: 5px;
+  padding-left: 25px;
+}
+
+.topnav a.icon {
+  background: #FFFDFA;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 1.4rem;
+  font-weight: roboto 400; 
+  color:#ff5f1f;
+}
+
+#myLinks i {
+  color: #ff5f1f;
+}
+
+
+#home {
+  background-color: #FFFDFA;
+  font-size: 1.5rem;
+} 
+
+.infoCards {
+    display:flex;
+    width: 100%;
+    margin: auto;
+    height:150px;
+    background-color: #F0F4F5;
+    color: #005EB8;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content:center;
+    border-radius: 6px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.infoCards a {
+  background-color: #F0F4F5;
+  font-weight: 300;
+  font-size: 20px;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+}
+.infoCards i {
+    padding-left: 10px;
+    color: #ff5f1f;
+    font-size: 1 rem;
+}
+
+.smallInfoCards{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  height:75px;
+  background-color: #F0F4F5;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color:#005EB8;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+
+.infoCards {
+  cursor: pointer;
+  transform: scale(1.2); 
+}
+
+.smallInfoCards {
+  cursor:pointer;
+}
+
+img{
+  width: 100%;
+  height:120px;
+  padding-top: 10px;
+}
+
+.mobileFooter img {
+  width:75px;
+  height:40px;
+  cursor: pointer;
+  
+}
+
+.mobileFooter i {
+  color:#005EB8;
+  font-size: 45px;
+  padding-right: 20px;
+  cursor:pointer;
+  text-decoration: none;
+}
+
+.mobileFooter {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.pageInformation{
+  width:98vw;
+  color:#121212;
+  align-items: flex-start;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 35px;
+  padding-left: 15px;
+  margin-top: 5px;
+}
+
+
+@media screen and (min-width: 480px) {
+.mobileView {
+  display:none;
+}
+ 
+.desktopView {
+  display: flex;
+  flex-direction: column;
+  width:100%vw;
+  
+
+}
+h1 {
+  color: #005EB8;
+  text-align: center;
+  margin-left: 160px;
+  margin-top:15px;
+  margin-bottom:80px;
+  padding-top:34px;
+  font-size: 100px;
+  font-weight: 300;
+
+}
+
+.covid {
+  height: 50px;
+  background-color: #ffff00;
+  color: #005EB8;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  width: 100vw;
+  display: block;
+  margin: 50px 0px;
+}
+
+#myLinks a {
+  color:#121212;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+#myLinks a:hover{ 
+  transform:scale(1.1);
+  text-decoration: underline;
+}
+
+#myLinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 65px 0px;
+  height: 50px;
+  }
+
+#myLinks i {
+    color: #ff5f1f;
+    font-size: 15px;
+  }
+
+.topnav {
+  position:relative;
+}
+
+.logo {
+  position: absolute;
+  top: 1px;
+  left:250px;
+  width:200px;
+  height: 200px;
+  
+}
+
+.pageInformation {
+  width: 100vw;
+  color:#121212;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 35px;
+  padding-left: 35px;
+  padding-bottom: 35px;
+  margin-top: 100px;
+  line-height: 31px;
+}
+
+.pageInformation ul li {
+  list-style-type: none;
+  
+}
+
+.desktopCards {
+  display: flex;
+  
+}
+
+.infoCards {
+  margin-top: 200px;
+  height: 200px;
+  width: 300px;
+  background-color: #005EB8;
+}
+
+.infoCards:hover{
+  transform:scale(1.3);
+}
+
+.infoCards a {
+  text-align: center;
+  color: #ffff00;
+  font-size: 30px;
+  font-weight: 100;
+  text-decoration: none;
+  background-color: #005EB8;
+
+}
+
+
+
+.welcome {
+  width: 100%;
+  height: 300px;
+  margin: 150px 0px;
+  padding: 50px 0px;
+  text-align: center;
+  justify-content: center;
+  color: #121212;
+  font-size:25px ;
+  line-height: 42px;
+}
+
+.welcome h2{
+  font-weight: 100;
+}
+.welcome h6{
+  font-weight: 100;
+}
+
+.welcome p {
+  color:#121212;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  padding-bottom: 200px;
+  height: 700px;
+  margin-bottom: 200px;
+}
+
+.faceBook{
+  color: #121212;
+  font-size: 50px;
+  font-weight: 200;
+  text-align: center;
+  padding: 150px 50px;
+  border: #ff5f1f;
+  border-radius: 50px;
+  border-width: 4px;
+  border-style: solid;
+  margin: 10px 0px;
+  width:80vw;
+  align-self: center;
+}
+.faceBook i {
+  color: #ff5f1f;
+  font-size: 50px;
+}
+
+.desktopFooter {
+  width:100%;
+  height: 310px;
+  color: #121212;
+  font-size: 25px;
+  margin: 30px 0px;
+  column-count: 3;
+  text-align: center;
+  align-content: center;
+}
+
+h3 {
+  height: 100px;
+  color: #ff5f1f;  
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding-top: 300px;
+  
+}
+.desktopFooter a {
+  display: block;
+  padding:5px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color:#121212;
+  font-weight: 100;  
+  }
+
+  .desktopFooter a:hover{
+    transform:scale(1.1);
+  }
+
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #ff5f1f;
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    border-radius: 4px;
+  }
+
+  #myBtn:hover {
+    background-color: #005EB8;
+  }
+
+
+}
+
+
