@@ -236,7 +236,7 @@ h1 {
 
 .topnav {
   position:relative;
-  z-index: -1;
+padding-left: 30px;
 }
 
 .logo {
