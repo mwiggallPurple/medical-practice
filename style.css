@@ -261,13 +261,11 @@ padding-left: 30px;
 }
 
 .pageInformation ul li {
-  list-style-type: none;
-  
+  list-style-type: none; 
 }
 
 .desktopCards {
-  display: flex;
-  
+  display: flex; 
 }
 
 .infoCards {
@@ -290,8 +288,6 @@ padding-left: 30px;
   background-color: #005EB8;
 
 }
-
-
 
 .welcome {
   width: 100%;
@@ -324,7 +320,7 @@ img {
   margin-right: auto;
   width: 80vw;
   padding-bottom: 200px;
-  height: 700px;
+  height: 600px;
   margin-bottom: 200px;
 }
 
